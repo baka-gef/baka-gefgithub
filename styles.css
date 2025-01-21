@@ -1,11 +1,11 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Style */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -13,7 +13,7 @@ body {
   color: #333;
 }
 
-/* Header Style */
+
 header {
   background-color: #333;
   color: white;
@@ -29,7 +29,7 @@ header p {
   font-size: 1.2em;
 }
 
-/* Introduction Section */
+
 .intro {
   background-color: white;
   padding: 20px;
@@ -54,7 +54,7 @@ header p {
   font-weight: bold;
 }
 
-/* Footer Style */
+
 footer {
   text-align: center;
   background-color: #333;
