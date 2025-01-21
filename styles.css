@@ -1,86 +1,21 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-header h1 {
-  margin-bottom: 10px;
-}
-
-header p {
-  font-size: 1.2em;
-}
-
-
-.intro {
-  background-color: white;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.intro h2 {
-  margin-bottom: 10px;
-}
-
-.intro ul {
-  list-style-type: none;
-}
-
-.intro ul li {
-  margin-bottom: 10px;
-}
-
-.intro ul li strong {
-  font-weight: bold;
-}
-
-
-footer {
-  text-align: center;
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  margin-top: 20px;
-}
-<p>Hi,I'm Dylan Karch
-
-
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Body Style */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden; /* Prevents scrollbars if logos go outside the page */
 }
 
+/* Header Section */
 header {
     background-color: #333;
     color: white;
@@ -96,23 +31,23 @@ header p {
     font-size: 1.2em;
 }
 
-
+/* Logos Style */
 .logos {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
 }
 
 .logo {
     position: absolute;
-    width: 100px; 
+    width: 100px;  /* Adjust the size of logos */
     height: auto;
-    opacity: 0.8; 
+    opacity: 0.8; /* Makes logos slightly transparent */
 }
 
-
+/* Footer Section */
 footer {
     text-align: center;
     background-color: #333;
