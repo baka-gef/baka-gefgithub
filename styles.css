@@ -1,0 +1,64 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Style */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Introduction Section */
+.intro {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+  margin-bottom: 10px;
+}
+
+.intro ul {
+  list-style-type: none;
+}
+
+.intro ul li {
+  margin-bottom: 10px;
+}
+
+.intro ul li strong {
+  font-weight: bold;
+}
+
+/* Footer Style */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
